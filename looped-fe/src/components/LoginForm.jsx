@@ -5,7 +5,7 @@ function LoginForm() {
   return (
     <>
       <div className="flex h-screen w-screen bg-[url(./assets/looped-bg.png)] bg-cover bg-center bg-no-repeat items-center justify-center">
-        <form className="login-form flex flex-col bg-white w-1/2 h-3/5 rounded-[10px] items-center justify-center-safe">
+        <form className="login-form flex flex-col bg-white w-3/4 h-3/5 sm:w-3/5 sm:h-2/3 md:w-2/3 md:h-3/5 lg:w-1/3 lg:h-2/3 text-[2.2vh] rounded-[10px] items-center justify-center-safe">
           <img src={LoopedDefault} alt="Looped Logo" className="size-15" />
           <p className="form-title">Login</p>
           <div className="flex flex-row">
