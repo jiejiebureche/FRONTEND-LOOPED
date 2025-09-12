@@ -1,5 +1,5 @@
 import LoopedDefault from "../assets/looped.svg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const SignUpForm = () => {
   return (
@@ -45,7 +45,9 @@ const SignUpForm = () => {
                 type="password"
               />
             </div>
-            <button className="mt-4 bg-black rounded-full w-2/3">Sign Up</button>
+            <button className="mt-4 bg-black rounded-full w-2/3">
+              Sign Up
+            </button>
           </form>
         </div>
       </div>
