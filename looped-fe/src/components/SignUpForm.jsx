@@ -10,7 +10,7 @@ const SignUpForm = () => {
         </div>
         <div className="flex flex-col bg-white h-full w-full md:h-full w-1/2 items-center justify-center">
           <form className="login-form flex flex-col bg-white w-full h-full rounded-[10px] text-[2.2vh] items-center justify-center-safe">
-            <img src={LoopedDefault} alt="Looped Logo" className="size-[4em]" />
+            {/* <img src={LoopedDefault} alt="Looped Logo" className="size-[4em]" /> */}
             <p className="form-title mt-0">Welcome to Looped!</p>
             <div className="flex flex-row">
               <p className="form-text">Already have an account?&nbsp;</p>
@@ -29,7 +29,7 @@ const SignUpForm = () => {
                   <label className="field-label text-left">Name</label>
                   <input
                     placeholder="Name"
-                    className="w-full h-8 mt-1 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
+                    className="w-full h-8 sm:h-10 mt-1 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
                     type="text"
                   />
                 </div>
@@ -39,7 +39,7 @@ const SignUpForm = () => {
                   </label>
                   <input
                     placeholder="Age"
-                    className="w-full h-8 mt-1 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
+                    className="w-full h-8 sm:h-10 mt-1 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
                     type="text"
                   />
                 </div>
@@ -49,7 +49,7 @@ const SignUpForm = () => {
               </label>
               <input
                 placeholder="Username"
-                className="mt-1 h-8 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
+                className="mt-1 h-8 sm:h-10 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
                 type="text"
               />
               <label className="field-label text-left mb-1 mt-3 sm:mt-5">
@@ -57,7 +57,7 @@ const SignUpForm = () => {
               </label>
               <input
                 placeholder="Email"
-                className="mt-1 h-8 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
+                className="mt-1 h-8 sm:h-10 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
                 type="email"
               />
               <label className="field-label text-left mt-3 sm:mt-5 mb-1">
@@ -65,7 +65,7 @@ const SignUpForm = () => {
               </label>
               <input
                 placeholder="Password"
-                className="mt-1 h-8 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
+                className="mt-1 h-8 sm:h-10 p-2 border-1 border-solid border-gray-300 rounded-[7px]"
                 type="password"
               />
             </div>
