@@ -26,8 +26,14 @@ function LoginForm() {
 
       navigate("/");
     } catch (error) {
-      console.error(error);
-      alert("Login failed. Please check your credentials.");
+      if (
+        error.response?.data?.non_field_errors?.[0] ===
+        "User account is disabled."
+      ) {
+        alert("Please verify your email before logging in.");
+      } else {
+        alert("Login failed. Please check your credentials.");
+      }
     } finally {
       setLoading(false);
     }

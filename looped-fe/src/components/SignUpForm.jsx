@@ -28,8 +28,8 @@ const SignUpForm = () => {
 
       // // store token (no refresh token in this flow)
       // localStorage.setItem(AUTH_TOKEN_KEY, res.data.token);
-
-      navigate("/");
+      alert("Check your email to confirm your account before logging in.");
+      navigate("/login");
     } catch (error) {
       console.error(error);
       alert("Signup failed. Please check your credentials.");
